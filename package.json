@@ -1,0 +1,21 @@
+{
+  "name": "@fubaobaoxian/cordova-plugin-aliyun-push",
+  "version": "1.0.3",
+  "description": "阿里云推送插件",
+  "scripts": {
+    "test": "echo test",
+    "build": "echo build"
+  },
+  "cordova": {
+    "id": "@fubaobaoxian/cordova-plugin-aliyun-push",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "url": "git@github.com:iceDragonC/cordova-plugin-aliyun-push.git"
+  },
+  "author": "dev@fubaobaoxian.com",
+  "dependencies": {}
+}
