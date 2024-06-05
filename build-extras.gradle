@@ -1,7 +1,7 @@
 buildscript {
     repositories {
         maven {
-            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+            url 'https://maven.aliyun.com/nexus/content/repositories/releases/'
         }
         // 配置HMS Core SDK的Maven仓地址。
         maven {
@@ -15,7 +15,7 @@ buildscript {
 
 repositories{
     maven {
-        url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+        url 'https://maven.aliyun.com/nexus/content/repositories/releases/'
     }
     // 配置HMS Core SDK的Maven仓地址。
     maven {

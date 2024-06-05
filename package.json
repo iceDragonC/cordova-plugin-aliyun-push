@@ -1,6 +1,6 @@
 {
   "name": "@fubaobaoxian/cordova-plugin-aliyun-push",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "阿里云推送插件",
   "scripts": {
     "test": "echo test",
