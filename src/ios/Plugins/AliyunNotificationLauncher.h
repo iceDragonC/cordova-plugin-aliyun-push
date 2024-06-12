@@ -46,6 +46,4 @@
 
 - (void)syncBadgeNum:(NSUInteger *)badgeNum andCallback:(void (^)(BOOL result))callback;
 
-- (void)initCloudPush: (UIApplication *)application andCallback:(void (^)(NSString* result))callback;
-
 @end

@@ -1,21 +1,57 @@
 {
-  "name": "@fubaobaoxian/cordova-plugin-aliyun-push",
-  "version": "1.0.5",
-  "description": "阿里云推送插件",
-  "scripts": {
-    "test": "echo test",
-    "build": "echo build"
+  "_args": [
+    [
+      "@comingzones/cordova-plugin-aliyun-push@1.1.0",
+      "/Users/CeiCei-imac/fubaoweb/src-cordova"
+    ]
+  ],
+  "_development": true,
+  "_from": "@comingzones/cordova-plugin-aliyun-push@1.1.0",
+  "_id": "@comingzones/cordova-plugin-aliyun-push@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-oC1EiU973rTCWqvpCcDY17CC0WptB6ewL8S828+7ewAqJCTgO7oflpAr32U5qCucAV6ve2yncIgy4pAtsPeTjw==",
+  "_location": "/@comingzones/cordova-plugin-aliyun-push",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@comingzones/cordova-plugin-aliyun-push@1.1.0",
+    "name": "@comingzones/cordova-plugin-aliyun-push",
+    "escapedName": "@comingzones%2fcordova-plugin-aliyun-push",
+    "scope": "@comingzones",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/@comingzones/cordova-plugin-aliyun-push/-/cordova-plugin-aliyun-push-1.1.0.tgz",
+  "_spec": "1.1.0",
+  "_where": "/Users/CeiCei-imac/fubaoweb/src-cordova",
+  "author": {
+    "name": "dev@comingzones.com"
+  },
+  "bugs": {
+    "url": "https://github.com/comingzones/cordova-plugin-aliyun-push/issues"
   },
   "cordova": {
-    "id": "@fubaobaoxian/cordova-plugin-aliyun-push",
+    "id": "@comingzones/cordova-plugin-aliyun-push",
     "platforms": [
       "android",
       "ios"
     ]
   },
+  "dependencies": {},
+  "description": "阿里云推送插件",
+  "homepage": "https://github.com/comingzones/cordova-plugin-aliyun-push#readme",
+  "name": "@comingzones/cordova-plugin-aliyun-push",
   "repository": {
-    "url": "git@github.com:iceDragonC/cordova-plugin-aliyun-push.git"
+    "url": "git+ssh://git@github.com/comingzones/cordova-plugin-aliyun-push.git"
   },
-  "author": "dev@fubaobaoxian.com",
-  "dependencies": {}
+  "scripts": {
+    "build": "echo build",
+    "test": "echo test"
+  },
+  "version": "1.1.0"
 }

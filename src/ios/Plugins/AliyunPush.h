@@ -80,9 +80,4 @@
  */
 - (void)setApplicationIconBadgeNumber:(CDVInvokedUrlCommand*)command;
 
-/**
- *初始化推送服务
- */
-- (void)init:(CDVInvokedUrlCommand*)command;
-
 @end

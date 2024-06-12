@@ -380,10 +380,10 @@
 }
 
 - (void)syncBadgeNum:(CDVInvokedUrlCommand*)command{
-
+    
     NSString* stringNum = [command.arguments objectAtIndex:0];
     NSUInteger badgeNum = [stringNum integerValue];
-
+    
     [[AliyunNotificationLauncher sharedAliyunNotificationLauncher]
      syncBadgeNum:badgeNum andCallback:^(BOOL result) {
         CDVPluginResult *cdvresult;
@@ -396,11 +396,11 @@
 
         [self.commandDelegate sendPluginResult:cdvresult callbackId:command.callbackId];
     }];
-
+    
 }
 
 - (void)setApplicationIconBadgeNumber:(CDVInvokedUrlCommand*)command{
-
+    
     NSString* stringNum = [command.arguments objectAtIndex:0];
     NSUInteger badgeNum = [stringNum integerValue];
 
@@ -409,24 +409,5 @@
 }
 
 
-- (void)init:(CDVInvokedUrlCommand*)command{
-
-    UIApplication *app=[UIApplication sharedApplication];
-
-
-    [[AliyunNotificationLauncher sharedAliyunNotificationLauncher]
-     initCloudPush:app andCallback:^(NSString* result) {
-        CDVPluginResult *cdvresult;
-
-        if([result  isEqual: @"success"]){
-            cdvresult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:result];
-        }else{
-            cdvresult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:result];
-        }
-
-        [self.commandDelegate sendPluginResult:cdvresult callbackId:command.callbackId];
-    }];
-
-}
 
 @end

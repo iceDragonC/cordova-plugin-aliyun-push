@@ -1,6 +1,7 @@
 buildscript {
     repositories {
         maven {
+            allowInsecureProtocol = true
             url 'https://maven.aliyun.com/nexus/content/repositories/releases/'
         }
         // 配置HMS Core SDK的Maven仓地址。
@@ -15,6 +16,7 @@ buildscript {
 
 repositories{
     maven {
+        allowInsecureProtocol = true
         url 'https://maven.aliyun.com/nexus/content/repositories/releases/'
     }
     // 配置HMS Core SDK的Maven仓地址。

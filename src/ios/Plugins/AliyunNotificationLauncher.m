@@ -39,7 +39,7 @@
     }
 
     // 初始化SDK
-    // [self initCloudPush:application];
+    [self initCloudPush:application];
 
     // 监听推送通道打开动作
     [self listenerOnChannelOpened];
@@ -128,8 +128,9 @@
     return _remoteinfo;
 }
 
+
 #pragma mark SDK Init AliyunEmasServices-Info.plist
-- (void)initCloudPush: (UIApplication *)application andCallback:(void (^)(NSString* result))callback{
+- (void)initCloudPush: (UIApplication *)application {
 
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     NSDictionary *aliyunPushConfig = [infoDictionary objectForKey:@"aliyun push config"];
@@ -148,12 +149,9 @@
                 NSLog(@"Push SDK init success, deviceId: %@.", [CloudPushSDK getDeviceId]);
                 // APNs注册，获取deviceToken并上报
                 [self registerAPNS:application];
-                callback(@"success");
             } else {
                 NSLog(@"Push SDK init failed, error: %@", res.error);
-                callback(res.error.description);
             }
-        
     }];
 }
 
