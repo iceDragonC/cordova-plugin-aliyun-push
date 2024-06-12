@@ -1,24 +1,24 @@
 {
   "_args": [
     [
-      "@comingzones/cordova-plugin-aliyun-push@1.1.0",
+      "@fubaobaoxian/cordova-plugin-aliyun-push@1.1.0",
       "/Users/CeiCei-imac/fubaoweb/src-cordova"
     ]
   ],
   "_development": true,
-  "_from": "@comingzones/cordova-plugin-aliyun-push@1.1.0",
-  "_id": "@comingzones/cordova-plugin-aliyun-push@1.1.0",
+  "_from": "@fubaobaoxian/cordova-plugin-aliyun-push@1.1.0",
+  "_id": "@fubaobaoxian/cordova-plugin-aliyun-push@1.1.0",
   "_inBundle": false,
   "_integrity": "sha512-oC1EiU973rTCWqvpCcDY17CC0WptB6ewL8S828+7ewAqJCTgO7oflpAr32U5qCucAV6ve2yncIgy4pAtsPeTjw==",
-  "_location": "/@comingzones/cordova-plugin-aliyun-push",
+  "_location": "/@fubaobaoxian/cordova-plugin-aliyun-push",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@comingzones/cordova-plugin-aliyun-push@1.1.0",
-    "name": "@comingzones/cordova-plugin-aliyun-push",
-    "escapedName": "@comingzones%2fcordova-plugin-aliyun-push",
-    "scope": "@comingzones",
+    "raw": "@fubaobaoxian/cordova-plugin-aliyun-push@1.1.0",
+    "name": "@fubaobaoxian/cordova-plugin-aliyun-push",
+    "escapedName": "@fubaobaoxian%2fcordova-plugin-aliyun-push",
+    "scope": "@fubaobaoxian",
     "rawSpec": "1.1.0",
     "saveSpec": null,
     "fetchSpec": "1.1.0"
@@ -26,17 +26,17 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "https://registry.npmmirror.com/@comingzones/cordova-plugin-aliyun-push/-/cordova-plugin-aliyun-push-1.1.0.tgz",
+  "_resolved": "https://registry.npmmirror.com/@fubaobaoxian/cordova-plugin-aliyun-push/-/cordova-plugin-aliyun-push-1.1.0.tgz",
   "_spec": "1.1.0",
   "_where": "/Users/CeiCei-imac/fubaoweb/src-cordova",
   "author": {
-    "name": "dev@comingzones.com"
+    "name": "dev@fubaobaoxian.com"
   },
   "bugs": {
-    "url": "https://github.com/comingzones/cordova-plugin-aliyun-push/issues"
+    "url": "https://github.com/fubaobaoxian/cordova-plugin-aliyun-push/issues"
   },
   "cordova": {
-    "id": "@comingzones/cordova-plugin-aliyun-push",
+    "id": "@fubaobaoxian/cordova-plugin-aliyun-push",
     "platforms": [
       "android",
       "ios"
@@ -44,10 +44,10 @@
   },
   "dependencies": {},
   "description": "阿里云推送插件",
-  "homepage": "https://github.com/comingzones/cordova-plugin-aliyun-push#readme",
-  "name": "@comingzones/cordova-plugin-aliyun-push",
+  "homepage": "https://github.com/iceDragonC/cordova-plugin-aliyun-push#readme",
+  "name": "@fubaobaoxian/cordova-plugin-aliyun-push",
   "repository": {
-    "url": "git+ssh://git@github.com/comingzones/cordova-plugin-aliyun-push.git"
+    "url": "git+ssh://git@github.com/iceDragonC/cordova-plugin-aliyun-push.git"
   },
   "scripts": {
     "build": "echo build",
